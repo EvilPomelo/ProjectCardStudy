@@ -14,13 +14,26 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="DataModel" t="Include">
+            <e p="SceneData.cs" t="Include" />
+          </e>
+          <e p="DownLoadManager" t="Include">
+            <e p="DownloadManager.cs" t="Include" />
+          </e>
           <e p="GameState" t="Include">
+            <e p="BattleState.cs" t="Include" />
             <e p="CityState.cs" t="Include" />
+            <e p="DungeonState.cs" t="Include" />
             <e p="GameState.cs" t="Include" />
+            <e p="GameStateManager.cs" t="Include" />
             <e p="LoginState.cs" t="Include" />
+          </e>
+          <e p="ResourcesManager" t="Include">
+            <e p="ResourcesManager.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="GUIManager.cs" t="Include" />
+            <e p="IView.cs" t="Include" />
           </e>
         </e>
       </e>

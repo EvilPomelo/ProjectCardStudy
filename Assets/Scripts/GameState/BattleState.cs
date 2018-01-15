@@ -1,4 +1,5 @@
-﻿    public class CityState:GameState
+﻿
+    public class BattleState:GameState
     {
         protected override void OnStart()
         {
@@ -7,11 +8,11 @@
 
         protected override void OnStop()
         {
-           GUIManager.HideView("CityPanel");
+            GUIManager.HideView("BattlePanel");
         }
 
         protected override void OnLoadComplete()
         {
-            GUIManager.ShowView("CityPanel");
+            GUIManager.ShowView("BattlePanel");
         }
     }

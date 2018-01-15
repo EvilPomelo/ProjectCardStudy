@@ -15,4 +15,5 @@
         {
             GUIManager.ShowView("LoginPanel");
         }
+        //todo:状态设置完毕开始LOAD场景
     }
